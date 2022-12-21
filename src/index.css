@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+
+  max-width: 1200px; /* 2 */
+}
+
+@font-face {
+  font-family: 'BaronNeue';
+  src: local('BaronNeue'), url(fonts/baronneue.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Intro';
+  src: local('Intro'), url(fonts/Intro.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Museo';
+  src: local('Museo'), url(fonts/Museo.otf);
+}
+
+h1,
+h2 {
+  font-family: Intro;
+  font-size: 42px;
+}
+
+p {
+  font-family: Museo;
+  font-size: 24px;
+}
